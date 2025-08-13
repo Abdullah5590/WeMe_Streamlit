@@ -215,7 +215,7 @@ elif menu == "About US":
         padding: 15px 20px;
         border-radius: 10px;
         margin-bottom: 15px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow:0 1px 4px #00baff;
         transition: transform 0.2s ease;
     }
     .card:hover {
@@ -378,6 +378,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
