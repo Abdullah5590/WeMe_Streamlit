@@ -187,7 +187,7 @@ st.sidebar.markdown(
     }
     </style>
    <div class="bottom-link">
-  <span style="color:#2bafe0;">🧑‍💻</span> <a href="https://abd14k.my.canva.site/portfolio" target="_blank">Try.. Portfolio</a>
+  <span style="color:#2bafe0;">🧑‍💻</span> <a href="https://abd14k.my.canva.site/portfolio" target="_blank">Portfolio</a>
 </div>
     """,
     unsafe_allow_html=True
@@ -299,7 +299,7 @@ elif menu == "Contact US":
             color: white !important; /* text white */
         }
         .call-btn, .email-btn {
-            background-color: #adadad;
+            background-color: #000000;
         }
         /* Hover effects for buttons */
         .call-btn:hover, .email-btn:hover {
@@ -378,6 +378,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
