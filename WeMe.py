@@ -15,7 +15,7 @@ st.markdown("""
     <style>
         /* Sidebar styling */
         [data-testid="stSidebar"] {
-            background:#adadad;
+            background:#7d7e82;
             backdrop-filter: blur(6px);
             padding-top: 0 !important;
         }
@@ -80,7 +80,7 @@ st.markdown("""
         }
         /* Main content background */
         [data-testid="stAppViewContainer"] {
-            background-color: #C0C0C0;
+            background-color: #2bafe0;
         }
         /* Global text color */
         body, h1, h2, h3, h4, h5, h6, p, div, span, label {
@@ -378,6 +378,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
