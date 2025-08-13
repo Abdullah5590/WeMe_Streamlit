@@ -210,7 +210,7 @@ elif menu == "About US":
     cards_html = """
     <style>
     .card {
-        background-color: #adadad;  /* bright red */
+        background-color: #00baff;  /* bright red */
         color: white;
         padding: 15px 20px;
         border-radius: 10px;
@@ -378,6 +378,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
