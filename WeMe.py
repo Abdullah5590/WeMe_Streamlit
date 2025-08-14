@@ -176,7 +176,7 @@ st.sidebar.markdown(
     <style>
     .bottom-link {
         position: absolute;
-        bottom: -320px;
+        bottom: -300px;
         width: 100%;
         color: white;
         font-size: 25px;
@@ -378,6 +378,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
