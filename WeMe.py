@@ -304,7 +304,7 @@ elif menu == "Contact US":
         }
         /* Hover effects for buttons */
         .call-btn:hover, .email-btn:hover {
-            background-color: #adadad;
+            background-color: #2bafe0;
             transform: scale(1.05);
         }
         /* Form fields */
@@ -336,6 +336,7 @@ elif menu == "Contact US":
         }
         div.stFormSubmitButton>button:hover {
             transform: scale(1.05);
+              background-color: #2bafe0;
         }
         </style>
     """, unsafe_allow_html=True)
@@ -379,6 +380,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
