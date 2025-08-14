@@ -6,7 +6,7 @@ import os
 # st.set_page_config(page_title="WeMe", page_icon="", layout="wide")
 st.set_page_config(
     page_title="WeMe",
-    page_icon="https://raw.githubusercontent.com/Abdullah5590/WeMe_Ui/main/1.jpeg",  # Path to your logo file
+    page_icon="https://github.com/Abdullah5590/WeMe_Streamlit/blob/main/1.png",  # Path to your logo file
     layout="wide"
 )
 
@@ -158,7 +158,7 @@ def image_to_base64(path):
     return path  # If it's already a URL
 
 # --- Sidebar Logo ---
-logo_path = "https://raw.githubusercontent.com/Abdullah5590/WeMe_Ui/main/1.png"
+logo_path = "https://github.com/Abdullah5590/WeMe_Streamlit/blob/main/1.png"
 logo_base64 = image_to_base64(logo_path)
 st.sidebar.markdown(
     f"""
@@ -380,6 +380,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
