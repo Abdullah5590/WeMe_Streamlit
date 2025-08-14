@@ -6,8 +6,8 @@ import os
 # st.set_page_config(page_title="WeMe", page_icon="", layout="wide")
 st.set_page_config(
     page_title="WeMe",
-    page_icon=r"https://github.com/Abdullah5590/WeMe_Streamlit/blob/main/1.png",  # Path to your logo file
-    layout="wide"
+    page_icon="1.png",
+    layout="centered"
 )
 
 # --- Custom CSS for Rolls-Royce Theme ---
@@ -380,6 +380,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
