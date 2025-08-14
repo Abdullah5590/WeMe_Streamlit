@@ -47,9 +47,10 @@ st.markdown("""
         [data-testid="stSidebar"] p,
         [data-testid="stSidebar"] span {
             color: white !important;
-            font-family: 'Trebuchet MS', sans-serif;
-            font-weight: 900;
+            # font-family: 'Trebuchet MS', sans-serif;
+            font-weight: 800;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+            letter-spacing: 1px;
         }
         /* Radio button container spacing */
         .stRadio > div[role="radiogroup"] > label {
@@ -176,7 +177,7 @@ st.sidebar.markdown(
     <style>
     .bottom-link {
         position: absolute;
-        bottom: -300px;
+        bottom: -280px;
         width: 100%;
         color: white;
         font-size: 25px;
@@ -378,6 +379,7 @@ elif menu == "Contact US":
                 st.success("✅ Thank you for reaching out! I will get back to you soon.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
